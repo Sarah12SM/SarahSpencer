@@ -1,0 +1,120 @@
+/*
+ Theme Name:   Elegant Child
+ Theme URI:    
+ Description:  Elegant Child Theme
+ Author:       Sarah Spencer
+ Author URI:   http://example.com
+ Template:     wpex-elegant
+ Version:      1.0.0
+ Tags:         light, dark, two-columns, right-sidebar, responsive-layout, accessibility-ready
+ Text Domain:  twenty-fourteen-child
+*/
+
+@import url("../wpex-elegant/style.css");
+
+/* =Theme customization starts here
+-------------------------------------------------------------- */
+
+body {background: #F5F3F1;}
+
+h1 a, h2 a, h3 a, h4 a {
+color: #AC8989;
+}
+
+.post-meta {color: #752828;}
+
+h1 a:hover, h2 a:hover, h3 a:hover, h4 a:hover {
+color: #BEB6B6;
+text-decoration: none;
+}
+
+.wpex-readmore a {
+background: #F5E4E4;
+color: #A88F8F; 
+}
+
+.wpex-readmore a:hover {
+background: #A88F8F;
+color: #FFFFFF;
+}
+
+/* ===== HOME PAGE SLIDER ===== */
+
+.homepage-slide-title {background: rgba(0,0,0,.2);}
+.homepage-slide-caption {background: rgba(0,0,0,.2);}
+
+/* ===== NAV ===== */
+
+#header {padding: 15px 0;}
+#header-wrap {
+background: #F5F3F1;
+border-bottom: none;
+box-shadow: none;
+height: 220px;
+}
+
+div#logo {
+text-indent: -999999px;
+background: url(./img/logo.png);
+background-repeat: no-repeat;
+background-position: center;
+height: 150px;
+width:100%;
+display:block;
+}
+
+#site-navigation-wrap {
+position:initial;
+height: 40px;
+margin-top: -20px;
+}
+
+.sf-menu > li {
+float: none;
+}
+
+ul#menu-primary-navigation {
+text-align: center;
+width: 100%;
+}
+
+ul#menu-primary-navigation li {
+display:inline-block;
+margin-top: 20px;
+}
+
+#site-navigation .dropdown-menu li {
+display: inline-block;
+float: none;
+height: 40px;
+line-height: 40px;
+}
+
+/* ===== FOOTER ===== */
+
+#footer-wrap {background: #814F4F;}
+
+.footer-box {
+color: #bbb;
+}
+
+#footer-widgets .widget-title span {
+background: transparent;
+}
+
+.footer-widget > ul > li {
+padding: 2px 0;
+border-bottom: 1px solid #8F6464;
+}
+
+.footer-widget > ul > li:first-child {
+border-top: 1px solid #8F6464;
+}
+
+.footer-widget.widget_pages.clr h6.widget-title {
+display: none;
+}
+
+#footer-wrap a:hover {
+color: #2B0B0B;
+}
